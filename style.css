@@ -1,0 +1,255 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.nav-home {
+    display: flex;
+    width:60%;
+    justify-content: space-between;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.nav-content {
+    display: flex;
+    width:80%;
+    justify-content: space-around;
+    font-family:'Courier New', Courier, monospace;
+}
+.home{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding:2px;
+}
+.project-h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:#CCC;
+    font-weight: 100;
+    font-size: 40px;
+}
+.nurtown-h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.main-h1{
+    margin-left: 8%;
+}
+.grid-img{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding:0;
+    gap:25px;
+    margin:0 auto;
+    max-width: 1200px;
+}
+.main-grid{
+    width:200px;
+}
+.anonymous{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:60%;
+    margin:5% auto;
+    background-color: whitesmoke;
+    padding:2%;
+}
+.img-p{
+    display: flex;
+    justify-content: space-between;
+    width:67%;
+    align-items: center;
+}
+.rect{
+    width:200px;
+}
+.lorem{
+    width:350px;
+}
+.two-img{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.rect-1{
+    width:200px;
+}
+.read{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:35%;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding:6px;
+}
+.nums {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+}
+.num1-div {
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
+}
+.num-p{
+    width:200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.num-img{
+    width:100px;
+}
+section.contact {
+    display: flex;
+    width:70em;
+    margin:0 auto;
+    justify-content: space-between;
+}
+h1.contact {
+    margin-left: 11%;
+    color:#CCC;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+}
+.input-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+input.input-contact {
+    width: 70%;
+    border: none;
+    background-color: #efefef;
+    padding: 15px;
+    border-radius: 2px;
+}
+.contact-input{
+    width: 70%;
+    border: none;
+    background-color: #efefef;
+    padding: 15px 15px 50px 15px;
+    border-radius: 2px;
+}
+img.contact-img {
+    width: 75%;
+}
+.labels {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 0.9rem;
+    margin-top: 2%;
+}
+button.send {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+.arrow-btn{
+    border:none;
+    background-color: whitesmoke;
+}
+.next-page{
+    display: flex;
+    justify-content: space-evenly;
+    width:15%;
+    align-items: center;
+    margin-left: 9%;
+    font-size: 1.7rem;
+    color:#CCC;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.p-1{
+    color:black;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding:2%;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.copy{
+      
+    text-align: center;
+}
+picture {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:450px){
+    section.contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+    .nav-home{
+        display:flex;
+        flex-direction: column;
+    }
+    .nav-content{
+        display:flex;
+        flex-direction: column;
+    }
+    .anonymous{
+        display:flex;
+        flex-direction: column;
+    }
+    .img-p{
+        display:flex;
+        flex-direction: column;
+
+    }
+    .lorem{
+        width:200px;
+    }
+    .nums{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-contact{
+        width:25%;
+    }
+    .contact-input{
+        width:25%;
+    }
+    img.contact-img {
+        width: 35%;
+    }
+    .read{
+        width:10em;
+    }
+
+    
+}
